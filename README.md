@@ -57,3 +57,13 @@ Description of our neural net:
 	accuracy: were able to obtain 100% accuracy on train set at approximately 300 epochs
 			  were able to obtain >97% accuracy (at 28 neurons per hidden layer) at approximately 1500 epochs 
 
+
+
+# Description of files:
+
+1) all.csv and Train1.csv contain train data of all sorts of chords:
+	0:N ,1:C_maj , .... 13:C_min
+
+2)final_preprocessing.py worked on the beatle chord dataset to extract feautures and write to a .csv file
+
+3)final_explo_ml_model.py extracts features from the .csv created above and uses a keras model to detect the corresponding chord.
