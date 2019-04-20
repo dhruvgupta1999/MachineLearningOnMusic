@@ -61,9 +61,12 @@ Description of our neural net:
 
 # Description of files:
 
-1) all.csv and Train1.csv contain train data of all sorts of chords:
-	0:N ,1:C_maj , .... 13:C_min
+1.all.csv and Train1.csv contain train data of all sorts of chords:
 
-2)final_preprocessing.py worked on the beatle chord dataset to extract feautures and write to a .csv file
+all.csv was extracted from the beatle dataset , Train1.csv from the chords dataset I created
 
-3)final_explo_ml_model.py extracts features from the .csv created above and uses a keras model to detect the corresponding chord.
+	0:N ,1:C_maj , .... 13:C_min...24:B_min
+
+2.final_preprocessing.py worked on the beatle chord dataset to extract feautures and write to a .csv file
+
+3.final_explo_ml_model.py extracts features from the .csv created above and uses a keras model to detect the corresponding chord.
